@@ -1,3 +1,28 @@
+<?php
+session_start();
+$nameErr = $emailErr = $genderErr = $addressErr =  $contactErr = $usernameErr = $passwordErr = "";
+$name = $email = $gender = $address =  $contact = $uname = $upassword = "";
+$cID;
+
+
+$oUserName;
+$oPassword;
+$oName;
+$oEmail;
+$oPhone;
+$oAddress;
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+$conn = new mysqli($servername, $username, $password); 
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+?>
+
 function test_input($data){
 	$data = trim($data);
 	$data = stripcslashes($data);
