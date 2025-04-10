@@ -27,3 +27,12 @@ CREATE TABLE order_details (
     price DECIMAL(10, 2),
     FOREIGN KEY (order_id) REFERENCES orders(id)
 );
+-- products table
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(100),
+    price DECIMAL(10, 2),
+    stock INT,
+    image VARCHAR(255)
+);
