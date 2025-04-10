@@ -9,3 +9,12 @@ CREATE TABLE users (
     email VARCHAR(100),
     level ENUM('admin', 'user') DEFAULT 'user'
 );
+-- orders table
+CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    order_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    total_price DECIMAL(10, 2),
+    status VARCHAR(50),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
