@@ -33,8 +33,11 @@ e_shop/ <br/>
 
 1. Clone or download the repository.
 2. Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP).
-3. Create a database and import the necessary tables.
-4. Edit `connectDB.php` to match your database credentials.
-5. Start the server and access the site via your browser.
+3. Create a MySQL database named `bookstore`.
+4. Import the database schema and data using a `.sql` file (not included — create one or use phpMyAdmin to design tables).
+5. Make sure your MySQL server is running on `localhost:3306`.
+6. Edit `connectDB.php` if your MySQL username/password or host differs:
+   ```php
+   $pdo = new PDO('mysql:host=localhost;port=3306;dbname=bookstore', 'root', '');
 
 ## Image
