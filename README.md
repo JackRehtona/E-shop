@@ -28,3 +28,11 @@ e_shop/ <br/>
 - PHP 7.x or above
 - MySQL or MariaDB
 - Web server (e.g., Apache)
+
+## Setup Instructions
+
+1. Clone or download the repository.
+2. Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP).
+3. Create a database and import the necessary tables.
+4. Edit `connectDB.php` to match your database credentials.
+5. Start the server and access the site via your browser.
