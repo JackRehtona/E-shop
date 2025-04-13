@@ -22,3 +22,9 @@ e_shop/ <br/>
 ├── logout.php # Logs out the user <br/>
 ├── style.css # Website styling <br/>
     └── image/ # Contains images (e.g., product images, backgrounds) <br/>
+
+## Requirements
+
+- PHP 7.x or above
+- MySQL or MariaDB
+- Web server (e.g., Apache)
