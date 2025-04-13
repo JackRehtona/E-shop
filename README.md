@@ -12,13 +12,13 @@ This is a basic e-commerce website built with PHP and MySQL. The project include
 
 ## File Structure
 
-e_shop/ 
-├── checklogin.php # Processes user login 
-├── checkout.php # Handles the checkout process 
-├── connectDB.php # Database connection setup 
-├── edituser.php # User profile editing 
-├── index.php # Homepage 
-├── login.php # Login form 
-├── logout.php # Logs out the user 
-├── style.css # Website styling 
-    └── image/ # Contains images (e.g., product images, backgrounds)
+e_shop/ <br/>
+├── checklogin.php # Processes user login <br/>
+├── checkout.php # Handles the checkout process <br/>
+├── connectDB.php # Database connection setup <br/>
+├── edituser.php # User profile editing <br/>
+├── index.php # Homepage <br/>
+├── login.php # Login form <br/>
+├── logout.php # Logs out the user <br/>
+├── style.css # Website styling <br/>
+    └── image/ # Contains images (e.g., product images, backgrounds) <br/>
