@@ -36,3 +36,5 @@ e_shop/ <br/>
 3. Create a database and import the necessary tables.
 4. Edit `connectDB.php` to match your database credentials.
 5. Start the server and access the site via your browser.
+
+## Image
