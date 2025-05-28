@@ -41,3 +41,10 @@ e_shop/ <br/>
    $pdo = new PDO('mysql:host=localhost;port=3306;dbname=bookstore', 'root', '');
 
 ## Image
+<img width="1000" height="auto" src="https://github.com/user-attachments/assets/16fe0f03-bbbb-4b10-9787-c01616c79a13">
+
+
+
+
+
+
