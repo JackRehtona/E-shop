@@ -42,6 +42,7 @@ e_shop/ <br/>
 
 ## Image
 <img width="1000" height="auto" src="https://github.com/user-attachments/assets/16fe0f03-bbbb-4b10-9787-c01616c79a13">
+<img width="1000" height="auto" src="https://github.com/user-attachments/assets/ca5579e5-1096-4b58-b64c-b25e67964449">
 
 
 
