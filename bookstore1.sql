@@ -40,3 +40,4 @@ CREATE TABLE products (
 INSERT INTO users (fullname, username, password, address, phone, email, level)
 VALUES ('Kenzi', 'kenzi', SHA2('12345678', 256), 'Unknown Address', '0000000000', 'kenzi@gmail.com', 'user');
 -- using SHA2 for more secure password hashing
+-- it will change the password into a spesific code
